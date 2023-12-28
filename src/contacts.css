@@ -1,0 +1,73 @@
+.gg {
+  color: brown;
+}
+.contact {
+  background-image: url(./img/contactImg.png);
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+}
+
+.about-contant img {
+  margin-top: 30px;
+}
+.contact h1 {
+  margin: 0;
+  font-size: 72px;
+  direction: rtl;
+  font-weight: 600;
+}
+.contacts-us h1 {
+  text-align: center;
+  color: #b19e7f;
+  font-size: 100px;
+  font-weight: 300;
+  direction: rtl;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.ourContact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+  margin: 0 10px;
+}
+.ourContact img {
+  margin-right: 20px;
+}
+.ourContact p {
+  font-size: 40px;
+  font-weight: 300;
+  margin-right: 20px;
+  direction: rtl;
+}
+.social {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 60px;
+}
+
+.Social-div {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  border-radius: 30px;
+}
+.contactmap {
+  width: 100%;
+  padding: 40px 0;
+}

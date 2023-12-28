@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Cairo", sans-serif;
+  /* margin-top: 100px; */
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}

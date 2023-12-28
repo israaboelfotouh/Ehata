@@ -1,0 +1,348 @@
+/* @media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+} */
+
+/* ميديا كويري: قواعد التنسيق للشاشات التي تكون أكبر من 1200 بيكسل */
+/* @media only screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+} */
+
+/* Responsive styles nav */
+@media only screen and (max-width: 768px) {
+  .Navebar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main {
+    font-size: 18px;
+  }
+
+  nav ul li {
+    margin-left: 10px;
+  }
+
+  .nav_contant img,
+  .nav_contant p,
+  .nav_contant h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+}
+
+/* Responsive styles about */
+@media only screen and (max-width: 768px) {
+  .about-us {
+    top: 10%;
+    right: 50%;
+    transform: translate(50%, 0);
+  }
+
+  .about h1 {
+    font-size: 24px;
+  }
+
+  .about-icone div {
+    padding: 20px;
+  }
+
+  .about-icone div p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contact h1 {
+    font-size: 36px;
+  }
+
+  .contacts-us h1 {
+    font-size: 64px;
+  }
+
+  .ourContact p {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .departMebts {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* Change to two columns on smaller screens */
+    gap: 15px; /* Reduce the gap further for smaller screens */
+  }
+
+  .texticone {
+    align-items: center; /* Center text on smaller screens */
+  }
+
+  .shadowline {
+    text-align: center; /* Center text on smaller screens */
+  }
+
+  .shadowline p,
+  .shadowline ul {
+    width: 100%; /* Full width for text on smaller screens */
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .servicess-bg h1 {
+    font-size: 36px;
+  }
+
+  .ourservices {
+    top: 10%;
+    right: 50%;
+    transform: translate(50%, 0);
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .srervoces-victor {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .vector-contant h3,
+  .vector-contant p {
+    text-align: center;
+  }
+
+  .account h2,
+  .account p {
+    text-align: center;
+  }
+
+  .account-serv {
+    grid-template-columns: 1fr;
+  }
+
+  .item {
+    text-align: center;
+  }
+
+  .hr-bg,
+  .gover-bg,
+  .design-bg {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  form label {
+    font-size: 36px;
+  }
+
+  input {
+    height: 60px;
+  }
+
+  .labelServices {
+    top: 100%;
+    align-items: center;
+  }
+
+  .labelServices button {
+    margin-top: 10px;
+  }
+
+  .itemform img,
+  .buttonTime {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .OrderServices {
+    padding: 100px 0 0 0; /* تقليل التباعد العلوي */
+  }
+
+  .services {
+    height: 200px; /* تقليل ارتفاع العنصر */
+  }
+
+  .order {
+    width: 90%; /* جعل الطلب أكبر على شاشات صغيرة */
+  }
+
+  .order h1 {
+    font-size: 36px; /* تقليل حجم النص */
+  }
+
+  .servicesinfo {
+    flex-direction: column; /* ترتيب العناصر عموديًا على شاشات صغيرة */
+    text-align: center; /* محاذاة النص في وسط الشاشة */
+    padding: 40px 0; /* تقليل التباعد العلوي والسفلي */
+  }
+
+  .services-contant {
+    width: 100%; /* جعل عرض النص 100% */
+    padding: 0; /* إزالة التباعد من اليمين */
+  }
+
+  .servicesinfo h1,
+  .servicesinfo p,
+  .servicesinfo span {
+    text-align: center; /* محاذاة النص في وسط الشاشة */
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .servicess-bg,
+  .hr-bg,
+  .gover-bg,
+  .design-bg {
+    height: 400px; /* قلل ارتفاع الخلفيات لجعلها أكثر مناسبة للشاشات الصغيرة */
+  }
+
+  .ourservices {
+    top: 10%;
+    right: 0;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .srervoces-victor {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 15px; /* قم بتغيير المسافة حسب حاجتك */
+  }
+
+  .vector-contant h3 {
+    font-size: 28px; /* قم بتغيير حجم العنوان حسب حاجتك */
+  }
+
+  .vector-contant p {
+    font-size: 24px; /* قم بتغيير حجم النص حسب حاجتك */
+  }
+
+  .account h2 {
+    font-size: 28px; /* قم بتغيير حجم العنوان حسب حاجتك */
+  }
+
+  .account p {
+    font-size: 18px; /* قم بتغيير حجم النص حسب حاجتك */
+  }
+
+  .item p,
+  .span {
+    font-size: 18px; /* قم بتغيير حجم النص حسب حاجتك */
+  }
+
+  /* قواعد التنسيق للأقسام عند استخدامها على شاشات صغيرة */
+  .hr-bg,
+  .gover-bg,
+  .design-bg {
+    height: 300px; /* قلل ارتفاع الخلفيات لجعلها أكثر مناسبة للشاشات الصغيرة */
+  }
+
+  .servicess-bg h1,
+  .account h2,
+  .vector-contant h3 {
+    font-size: 48px; /* قم بتغيير حجم العناوين حسب حاجتك */
+  }
+
+  .vector-contant p,
+  .account p,
+  .item p,
+  .span {
+    font-size: 16px; /* قم بتغيير حجم النص حسب حاجتك */
+  }
+}
+
+/* قواعد التنسيق للشاشات الصغيرة باستخدام ميديا كويري */
+@media only screen and (max-width: 768px) {
+  .yourservices {
+    height: 300px; /* يمكنك تعديل ارتفاع الخلفية لتناسب الشاشات الصغيرة */
+  }
+
+  .activeties {
+    width: 80%; /* استخدم نسبة عرض أقل لتناسب الشاشات الصغيرة */
+    height: auto; /* اجعل ارتفاع العنصر يتكيف مع المحتوى */
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .activeties div {
+    margin-bottom: 50px;
+  }
+
+  .activeties div p {
+    font-size: 24px; /* قم بتصغير حجم النص لجعله أكثر قابلية للقراءة على الشاشات الصغيرة */
+  }
+
+  .activeties div h4 {
+    font-size: 28px; /* قم بتصغير حجم العنوان لجعله أكثر قابلية للقراءة على الشاشات الصغيرة */
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .visionsize {
+    width: 90%; /* استخدم نسبة عرض أعلى لتناسب الشاشات الصغيرة */
+    margin-bottom: 40px;
+  }
+
+  .visionsize p {
+    font-size: 24px; /* قم بتقليل حجم النص لجعله أكثر قابلية للقراءة على الشاشات الصغيرة */
+  }
+
+  .visionsize h2 {
+    font-size: 48px; /* قم بتقليل حجم العنوان لجعله أكثر قابلية للقراءة على الشاشات الصغيرة */
+  }
+
+  .VissionandMission {
+    grid-template-columns: 1fr; /* ضع عمود واحد فقط على الشاشات الصغيرة */
+    gap: 30px;
+  }
+
+  .Mission-bg {
+    width: 100%; /* استخدم عرض كامل لتناسب الشاشات الصغيرة */
+  }
+
+  .ourmession p {
+    width: 100%; /* استخدم عرض كامل لتناسب الشاشات الصغيرة */
+  }
+
+  .pstternright,
+  .pstternleft {
+    display: none; /* قم بإخفاء النمط عندما تكون الشاشة صغيرة */
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  footer ul li {
+    font-size: 24px; /* قم بتقليل حجم الخط لتناسب الشاشات الصغيرة */
+    margin-left: 0; /* إزالة التباعد بين العناصر */
+    margin-bottom: 10px; /* إضافة تباعد بين العناصر لتحسين القراءة */
+  }
+
+  .footerinfo {
+    flex-direction: column; /* قم بتغيير اتجاه العناصر لتكون عمودية */
+    align-items: start; /* قم بتحديد الهوية لتكون مناسبة للعناصر العمودية */
+  }
+
+  .footer-contant {
+    text-align: left; /* قم بتغيير اتجاه النص ليكون من اليسار على الشاشات الصغيرة */
+  }
+
+  .footer-contant p {
+    margin-right: 0; /* إزالة التباعد من اليمين عندما يكون النص من اليسار */
+    margin-bottom: 10px; /* إضافة تباعد من الأسفل لتحسين القراءة */
+  }
+
+  .endfooter p {
+    font-size: 18px; /* قم بتقليل حجم النص في النهاية لتناسب الشاشات الصغيرة */
+  }
+}
